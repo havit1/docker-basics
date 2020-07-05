@@ -7,4 +7,4 @@ app.get('/', (_, res) => {
 
 const port = 3001
 
-app.listen(port, () => console.log('up and running'))
+app.listen(port, () => console.log('up and running set up wsl'))
