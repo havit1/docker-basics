@@ -1,0 +1,10 @@
+FROM node:latest
+
+COPY . .
+
+RUN npm install
+
+CMD [ "node", "src/index.js" ]
+
+# docker build -t test/docker-basics:2 .
+# docker run -p 8001:3001 -d test/docker-basics:2
